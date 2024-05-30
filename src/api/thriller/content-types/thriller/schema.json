@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thrillers",
+  "info": {
+    "singularName": "thriller",
+    "pluralName": "thrillers",
+    "displayName": "thriller",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
